@@ -1,0 +1,134 @@
+/* Desktop View */
+
+@media (max-width: 1880px) {
+    body {
+      background-image: url('https://goodthingsbaking.com/wp-content/uploads/2022/05/strawberry-ice-cream-recipe-16.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color:lemonchiffon;
+      background-color: rgba(251, 215, 158, 0.903);
+    }
+    a {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: antiquewhite;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    
+    .cone{
+      border:solid rgb(241, 140, 196);
+      border-radius: 50%;
+        width:190px;
+        height:190px;
+        background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/strawberry-ice-cream-cone-michael-vigliotti.jpg');
+        background-size:cover;
+      }
+      button {
+        background-color: rgb(241, 140, 196);
+        border-radius: 10px;
+        margin-left: 50px;
+      }
+      .maincontainer{
+        width: 80%;
+        border: solid rgb(231, 121, 139);
+        border-width: 2px;
+        margin: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  }
+  .mainTitle {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: antiquewhite;
+      margin-top: 20px;
+      margin-left: 40px;
+      font-size: 30px;
+}
+  .store {
+    /* border: solid brown 2px; */
+    width: 425px;
+    height: 225px;
+    margin-left: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .storePic {
+    width: 100%;
+    border-bottom: solid antiquewhite 5px;
+  }
+  .name {
+    width: 300px;
+    height: 50px;
+    margin-left: 80px;
+  }
+  .profile {
+    border: double pink 2px;
+    border-width: 20px;
+    width: 450px;
+    height: 330px;
+    margin-left: 30px;
+  }
+.link {
+  margin-left: 40%;
+  width: 78px;
+  background-color: rgb(59, 12, 20);
+}
+}
+  /* ---------------------------------------------------------------- */
+
+  /* Ipad -MidScreen */
+  @media (max-width: 1180px) {
+    body {
+      
+      background-image:url('https://www.dairyreporter.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/dairyreporter.com/article/2017/07/07/vanilla-ranks-as-the-top-selling-ice-cream-flavor-in-us/5959952-4-eng-GB/Vanilla-ranks-as-the-top-selling-ice-cream-flavor-in-US.jpg');
+      color:rgb(218, 90, 90);
+    }
+    .cone{
+      border:solid rgb(245, 219, 115);
+      border-radius: 50%;
+        width:190px;
+        height:190px;
+        background-image: url('https://fastfoodnutrition.org/item-photos/400x630/3360.jpg');
+        background-size:cover;
+      }
+      .maincontainer{
+        width: 95%;
+        border: solid rgb(231, 121, 139);
+        border-width: 2px;
+        margin: 20px;
+    }
+    .mainTitle {
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(208, 194, 176));
+        
+  }
+  }
+
+  /* ---------------------------------------------------------------- */
+
+  /* Mobile View */
+  @media (max-width: 680px) {
+    body {
+      background-image:url('https://media.istockphoto.com/id/1314489539/photo/chocolate-ice-cream-scoop-top-view.jpg?b=1&s=170667a&w=0&k=20&c=UgYtIySJqfgq0zgxHIbAALi-Ox8dtzLPjgNVjlpWvqc=');
+      color:rgb(243, 231, 127);
+    }
+
+    .cone{
+      border:solid rgba(242, 217, 130, 0.981);
+      border-radius: 50%;
+        width:190px;
+        height:190px;
+        background-image: url('https://www.carvel.com/-/media/carvel/menu/ice-cream/soft-serve/2-chocolate-new.png?v=1&d=20180430T193908Z&h=600&w=600&la=en&hash=78EF4BE6817E692ACEDC66FE8FDF5140');
+        background-size:cover;
+     
+    }
+
+    .maincontainer{
+        width: 95%;
+        border: solid rgb(231, 121, 139);
+        border-width: 4px;
+        margin: 20px;
+    }
+   
+
+  /* ---------------------------------------------------------------- */
